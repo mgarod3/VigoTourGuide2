@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CustomListView">
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/ImageListView" />
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        style="@style/TextViewsContainer">
+
+        <TextView
+            android:id="@+id/spot_name_text"
+            style="@style/TextViewName"
+            tools:text="" />
+
+        <TextView
+            android:id="@+id/spot_description_text"
+            style="@style/TextViewDescription"
+            tools:text="" />
+
+        <TextView
+            android:id="@+id/spot_address_text"
+            style="@style/TextViewAddress"
+            tools:text="" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="VigoTourAppBarStyle" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Intermediate styles -->
+    <style name="MatchMatch" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MatchListItemHeight" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+    </style>
+
+    <!-- Common style for a Vertical LinearLayouts -->
+    <style name="VertLinearLayout" parent="MatchMatch">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Style for a Vertical LinearLayout in MainActivity -->
+    <style name="MainVertLinearLayout" parent="VertLinearLayout">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <!-- Style for tabs -->
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="tabIndicatorColor">@color/colorPrimaryDark</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
+    </style>
+
+    <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="tabTextColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/tab_text_size</item>
+    </style>
+
+    <!-- Style for ListView -->
+    <style name="CustomListView" parent="MatchListItemHeight">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:minHeight">@dimen/list_item_height</item>
+    </style>
+
+    <!-- Style for images in ListView -->
+    <style name="ImageListView" parent="AppTheme">
+        <item name="android:layout_width">@dimen/list_item_height</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+    </style>
+
+    <!-- Style for TextViewsContainer in ListView -->
+    <style name="TextViewsContainer" parent="MatchListItemHeight">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_toRightOf">@id/image</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/padding_left</item>
+    </style>
+
+    <!-- Style for TextViews in ListView -->
+    <style name="TextViewsList" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Style for TextViewName in ListView -->
+    <style name="TextViewName" parent="TextViewsList">
+        <item name="android:layout_height">@dimen/list_half_item_height</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textAppearance">?android:textAppearanceListItemSmall</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Common Style for Secondary TextViews in ListView -->
+    <style name="SecondaryTextViews" parent="TextViewsList">
+
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for TextViewDescription in ListView -->
+    <style name="TextViewDescription" parent="SecondaryTextViews">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:layout_below">@id/spot_name_text</item>
+    </style>
+
+    <!-- Style for TextViewAddress in ListView -->
+    <style name="TextViewAddress" parent="SecondaryTextViews">
+        <item name="android:textSize">@dimen/address_text_size</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:layout_below">@id/spot_description_text</item>
+    </style>
+
+</resources>

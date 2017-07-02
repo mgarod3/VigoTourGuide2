@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Vigo Tour Guide</string>
+
+    <!-- Tab strings-->
+    <string name="museums">MUSEUMS</string>
+    <string name="beaches">BEACHES</string>
+    <string name="restaurants">EATING</string>
+    <string name="surroundings">OTHERS</string>
+
+    <!-- Museums strings-->
+    <string name="museo_marco_name">MARCO</string>
+    <string name="museo_marco_description">Contemporary Art Museum</string>
+    <string name="museo_marco_address">Principe Street, 54</string>
+    <string name="museo_mar_name">Museo del Mar</string>
+    <string name="museo_mar_description">Galician Museum of the Sea</string>
+    <string name="museo_mar_address">Atlantida Avenue, 160</string>
+    <string name="museo_verbum_name">Verbum</string>
+    <string name="museo_verbum_description">The House of Words</string>
+    <string name="museo_verbum_address">Samil Avenue, 17</string>
+    <string name="museo_quinones_name">Quiñones de León</string>
+    <string name="museo_quinones_description">Galician Art &amp; Archaeology</string>
+    <string name="museo_quinones_address">Castrelos Park</string>
+    <string name="museo_pacheco_name">Pacheco Archive</string>
+    <string name="museo_pacheco_description">Photography</string>
+    <string name="museo_pacheco_address">Policarpo Sanz St, 15</string>
+    <string name="museo_liste_name">Liste</string>
+    <string name="museo_liste_description">Ethnography</string>
+    <string name="museo_liste_address">Pastora Street, 22</string>
+
+    <!-- Beaches strings-->
+    <string name="beach_samil_name">Samil Beach</string>
+    <string name="beach_samil_description">Pools, green areas, promenade</string>
+    <string name="beach_samil_address">Samil Avenue</string>
+    <string name="beach_vao_name">Vao Beach</string>
+    <string name="beach_vao_description">Green areas, wood promenade</string>
+    <string name="beach_vao_address">Canido Street</string>
+    <string name="beach_fontaiña_name">Fontaiña Beach</string>
+    <string name="beach_fontaiña_description">Small and quiet beach</string>
+    <string name="beach_fontaiña_address">Canido Street</string>
+    <string name="beach_adro_name">O Adro Beach</string>
+    <string name="beach_adro_description">With a long promenade</string>
+    <string name="beach_adro_address">Bouzas</string>
+    <string name="beach_baluarte_name">O Baluarte Beach</string>
+    <string name="beach_baluarte_description">Small nudist beach</string>
+    <string name="beach_baluarte_address">Canido Street</string>
+    <string name="beach_saians_name">Saians Beach</string>
+    <string name="beach_saians_description">Nudist beach</string>
+    <string name="beach_saians_address">Saians</string>
+
+    <!-- Restaurants strings-->
+    <string name="restaurant_casa_marco_name">Casa Marco</string>
+    <string name="restaurant_casa_marco_description">Mediterranean and European</string>
+    <string name="restaurant_casa_marco_address">Garcia Barbon Av., 123</string>
+    <string name="restaurant_maruja_limon_name">Maruja Limon</string>
+    <string name="restaurant_maruja_limon_description">Contemporary and European</string>
+    <string name="restaurant_maruja_limon_address">Montero Rios St., 4</string>
+    <string name="restaurant_picadillo_name">Picadillo</string>
+    <string name="restaurant_picadillo_description">Mediterranean and European</string>
+    <string name="restaurant_picadillo_address">Fermin Penzol St., 10</string>
+    <string name="restaurant_chilam_balam_name">Chilam Balam</string>
+    <string name="restaurant_chilam_balam_description">Mexican</string>
+    <string name="restaurant_chilam_balam_address">Oporto Street, 7</string>
+    <string name="restaurant_mosquito_name">El Mosquito</string>
+    <string name="restaurant_mosquito_description">Seafood and Mediterranean</string>
+    <string name="restaurant_mosquito_address">A Pedra Square, 7</string>
+    <string name="restaurant_juanita_name">La Juanita</string>
+    <string name="restaurant_juanita_description">Tapas</string>
+    <string name="restaurant_juanita_address">Joaquin Yañez St., 4</string>
+
+    <!-- Surroundings strings-->
+    <string name="surroundings_cies_name">Cies Islands</string>
+    <string name="surroundings_cies_description">Natural Park</string>
+    <string name="surroundings_tecla_name">Santa Tecla Mount</string>
+    <string name="surroundings_tecla_description">Celtic Village</string>
+    <string name="surroundings_valença_name">Valença do Minho</string>
+    <string name="surroundings_valença_description">Beautiful old fortress</string>
+    <string name="surroundings_combarro_name">Combarro</string>
+    <string name="surroundings_combarro_description">Traditional fishing village</string>
+    <string name="surroundings_mondariz_name">Mondariz Balneario</string>
+    <string name="surroundings_mondariz_description">Spa Town</string>
+    <string name="surroundings_ribadavia_name">Ribadavia</string>
+    <string name="surroundings_ribadavia_description">Beatiful old town</string>
+
+</resources>

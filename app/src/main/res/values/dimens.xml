@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">96dp</dimen>
+
+    <!-- Half height of each list item -->
+    <dimen name="list_half_item_height">44dp</dimen>
+
+    <!-- Tab text size -->
+    <dimen name="tab_text_size">11sp</dimen>
+
+    <!-- Spot Address text size -->
+    <dimen name="address_text_size">12sp</dimen>
+
+    <!-- Padding left -->
+    <dimen name="padding_left">16dp</dimen>
+</resources>
